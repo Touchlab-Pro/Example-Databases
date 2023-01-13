@@ -1,0 +1,23 @@
+CREATE TABLE departments
+(
+    id   INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT    NOT NULL
+);
+
+CREATE TABLE roles
+(
+    id        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    role_name TEXT    NOT NULL
+);
+
+CREATE TABLE people
+(
+    id         INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name       TEXT    NOT NULL,
+    role       INTEGER NOT NULL REFERENCES roles(id),
+    department INTEGER NOT NULL REFERENCES departments(id)
+);
+
+CREATE INDEX index_people_department ON people (department);
+
+CREATE INDEX index_people_role ON people (role);

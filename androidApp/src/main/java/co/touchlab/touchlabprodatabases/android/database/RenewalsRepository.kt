@@ -1,6 +1,6 @@
-package co.touchlab.kmmprodatabases.android.database
+package co.touchlab.touchlabprodatabases.android.database
 
-import co.touchlab.kmmprodatabases.android.database.dao.RenewalDao
+import co.touchlab.touchlabprodatabases.android.database.dao.RenewalDao
 
 class RenewalsRepository(private val renewalDao: RenewalDao) {
     suspend fun software() = renewalDao.softwareRenewals()

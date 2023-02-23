@@ -1,4 +1,4 @@
-package co.touchlab.kmmprodatabases
+package co.touchlab.touchlabprodatabases
 
 class Greeting {
     private val platform: Platform = getPlatform()

@@ -1,4 +1,4 @@
-package co.touchlab.kmmprodatabases
+package co.touchlab.touchlabprodatabases
 
 interface Platform {
     val name: String

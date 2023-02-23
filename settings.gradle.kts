@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "KmmProDatabases"
+rootProject.name = "TouchlabProDatabases"
 
 include(
     ":androidApp",

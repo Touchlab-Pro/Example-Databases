@@ -5,10 +5,10 @@ plugins {
 }
 
 android {
-    namespace = "co.touchlab.kmmprodatabases.android"
+    namespace = "co.touchlab.touchlabprodatabases.android"
     compileSdk = 32
     defaultConfig {
-        applicationId = "co.touchlab.kmmprodatabases.android"
+        applicationId = "co.touchlab.touchlabprodatabases.android"
         minSdk = 29
         targetSdk = 32
         versionCode = 1

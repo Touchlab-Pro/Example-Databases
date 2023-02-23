@@ -1,8 +1,8 @@
-package co.touchlab.kmmprodatabases.android.database.dao
+package co.touchlab.touchlabprodatabases.android.database.dao
 
 import androidx.room.*
-import co.touchlab.kmmprodatabases.android.database.entity.SoftwareEntity
-import co.touchlab.kmmprodatabases.android.database.entity.VendorsEntity
+import co.touchlab.touchlabprodatabases.android.database.entity.SoftwareEntity
+import co.touchlab.touchlabprodatabases.android.database.entity.VendorsEntity
 
 @Dao
 interface SoftwareDao {

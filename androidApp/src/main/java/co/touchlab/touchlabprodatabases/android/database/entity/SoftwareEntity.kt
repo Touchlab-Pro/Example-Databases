@@ -1,9 +1,9 @@
-package co.touchlab.kmmprodatabases.android.database.entity
+package co.touchlab.touchlabprodatabases.android.database.entity
 
 import androidx.room.*
 
 @Entity(
-    tableName = "hardware",
+    tableName = "software",
     foreignKeys = [
         ForeignKey(
             entity = VendorsEntity::class,
@@ -13,11 +13,10 @@ import androidx.room.*
     ],
     indices = [Index("vendor")]
 )
-data class HardwareEntity(
+data class SoftwareEntity(
     @PrimaryKey(autoGenerate = true) val id: Int,
+    @ColumnInfo(name = "license_start_date") val licenseStartDateDate: Long,
+    @ColumnInfo(name = "license_end_date") val licenseEndDate: Long,
     val name: String,
-    @ColumnInfo(name = "ip_address") val ipAddress: String,
-    @ColumnInfo(name = "install_date") val installDate: Long,
-    @ColumnInfo(name = "replacement_date") val replacementDate: Long,
     val vendor: Int
 )

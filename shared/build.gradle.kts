@@ -54,7 +54,7 @@ kotlin {
 }
 
 android {
-    namespace = "co.touchlab.kmmprodatabases"
+    namespace = "co.touchlab.touchlabprodatabases"
     compileSdk = 32
     defaultConfig {
         minSdk = 29
@@ -64,7 +64,7 @@ android {
 
 sqldelight {
     database("AssetManagementDatabase") {
-        packageName = "co.touchlab.kmmprodatabases"
+        packageName = "co.touchlab.touchlabprodatabases"
         version = 1
     }
 }

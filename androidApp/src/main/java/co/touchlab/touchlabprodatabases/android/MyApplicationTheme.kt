@@ -1,4 +1,4 @@
-package co.touchlab.kmmprodatabases.android
+package co.touchlab.touchlabprodatabases.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape

@@ -1,11 +1,11 @@
-package co.touchlab.kmmprodatabases.android.database
+package co.touchlab.touchlabprodatabases.android.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import co.touchlab.kmmprodatabases.android.database.dao.HardwareDao
-import co.touchlab.kmmprodatabases.android.database.dao.RenewalDao
-import co.touchlab.kmmprodatabases.android.database.dao.SoftwareDao
-import co.touchlab.kmmprodatabases.android.database.entity.*
+import co.touchlab.touchlabprodatabases.android.database.dao.HardwareDao
+import co.touchlab.touchlabprodatabases.android.database.dao.RenewalDao
+import co.touchlab.touchlabprodatabases.android.database.dao.SoftwareDao
+import co.touchlab.touchlabprodatabases.android.database.entity.*
 
 @Database(
     entities = [

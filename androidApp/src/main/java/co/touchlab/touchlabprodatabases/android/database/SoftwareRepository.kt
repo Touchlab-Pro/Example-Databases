@@ -1,8 +1,8 @@
-package co.touchlab.kmmprodatabases.android.database
+package co.touchlab.touchlabprodatabases.android.database
 
-import co.touchlab.kmmprodatabases.android.database.dao.SoftwareDao
-import co.touchlab.kmmprodatabases.android.database.dao.SoftwareResult
-import co.touchlab.kmmprodatabases.android.database.entity.SoftwareEntity
+import co.touchlab.touchlabprodatabases.android.database.dao.SoftwareDao
+import co.touchlab.touchlabprodatabases.android.database.dao.SoftwareResult
+import co.touchlab.touchlabprodatabases.android.database.entity.SoftwareEntity
 
 class SoftwareRepository(private val softwareDao: SoftwareDao) {
     suspend fun allSoftware(): List<SoftwareResult> {

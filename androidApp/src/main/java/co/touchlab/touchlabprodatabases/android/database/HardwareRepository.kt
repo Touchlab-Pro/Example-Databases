@@ -1,10 +1,8 @@
-package co.touchlab.kmmprodatabases.android.database
+package co.touchlab.touchlabprodatabases.android.database
 
-import co.touchlab.kmmprodatabases.android.database.dao.HardwareDao
-import co.touchlab.kmmprodatabases.android.database.dao.HardwareResult
-import co.touchlab.kmmprodatabases.android.database.dao.SoftwareResult
-import co.touchlab.kmmprodatabases.android.database.entity.HardwareEntity
-import co.touchlab.kmmprodatabases.android.database.entity.SoftwareEntity
+import co.touchlab.touchlabprodatabases.android.database.dao.HardwareDao
+import co.touchlab.touchlabprodatabases.android.database.dao.HardwareResult
+import co.touchlab.touchlabprodatabases.android.database.entity.HardwareEntity
 
 class HardwareRepository(private val hardwareDao: HardwareDao) {
     suspend fun allHardware(): List<HardwareResult> {

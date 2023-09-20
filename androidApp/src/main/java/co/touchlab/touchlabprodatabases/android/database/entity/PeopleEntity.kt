@@ -1,4 +1,4 @@
-package co.touchlab.kmmprodatabases.android.database.entity
+package co.touchlab.touchlabprodatabases.android.database.entity
 
 import androidx.room.Entity
 import androidx.room.ForeignKey

@@ -1,4 +1,4 @@
-package co.touchlab.kmmprodatabases.android
+package co.touchlab.touchlabprodatabases.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import co.touchlab.kmmprodatabases.Greeting
+import co.touchlab.touchlabprodatabases.Greeting
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

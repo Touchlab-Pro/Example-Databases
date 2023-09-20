@@ -1,4 +1,4 @@
-package co.touchlab.kmmprodatabases.android.database.dao
+package co.touchlab.touchlabprodatabases.android.database.dao
 
 import androidx.room.ColumnInfo
 import androidx.room.Dao
